@@ -4,8 +4,6 @@ library(dplyr)
 
 # Read in Airline Reviews Dataset
 reviews <- read.csv("Airline_review.csv")
-# write.csv(reviews_filtered_cleaned,"C:/Users/Brian/OneDrive/Documents/Lehigh/Projects/Airline Reviews/Airline_review_filtered.csv", row.names = FALSE)
-# write.csv(merged_data,"C:/Users/Brian/OneDrive/Documents/Lehigh/Projects/Airline Reviews/Merged_data.csv", row.names = FALSE)
 
 # Explore data
 head(reviews)
